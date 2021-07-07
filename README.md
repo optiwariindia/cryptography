@@ -18,13 +18,19 @@ Install using composer
 `print_r($crypt->listAlgo());`
 
 #### Encrypt
-`$crypt->algo("AES-128-CBC")`
-`$iv=$crypt->iv()`
-`$crypt->key("SuperSecretKey")`
-`list($cypher,$tag)=$crypt->encrypt("message")`
+`$crypt->algo("AES-128-CBC");`
+
+`$iv=$crypt->iv();`
+
+`$crypt->key("SuperSecretKey");`
+
+`list($cypher,$tag)=$crypt->encrypt("message");`
 
 #### Decrypt 
-`$crypt->algo("AES-128-CBC")`
-`$iv=$crypt->iv()`
-`$crypt->key("SuperSecretKey")`
-`$text=$crypt->decrypt($cypher,$tag)`
+`$crypt->algo("AES-128-CBC");`
+
+`$iv=$crypt->iv();`
+
+`$crypt->key("SuperSecretKey");`
+
+`$text=$crypt->decrypt($cypher,$tag);`
