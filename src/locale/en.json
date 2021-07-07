@@ -1,0 +1,6 @@
+[
+    "Algorithm not defined, Please check list of algorithm using listAlgo() method.",
+    "Algorithm not set. Use algo({ALGORITHM_NAME}) to set it",
+    "IV not set. Please set IV using iv() method",
+    "Encryption key is not set. Please set a key to encrypt"
+]

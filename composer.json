@@ -1,0 +1,21 @@
+{
+    "name": "optiwariindia/cryptography",
+    "description": "Easy encryption with AES algo",
+    "type": "library",
+    "require": {
+        "lib-openssl": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "optiwariindia\\":["src/"]
+        }
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Om Prakash Tiwari",
+            "email": "optiwari.india@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable"
+}
